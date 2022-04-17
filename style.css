@@ -18,7 +18,7 @@ main {
 }
 
 .innerbox {
-    padding: 20%;
+    padding: 13%;
 }
 
 .learn {
@@ -26,6 +26,7 @@ main {
     background-color: hsla(0, 0%, 100%, 0.75);
     border-radius: 20px;
     padding: 0 10%;
+    margin-top:70px;
 }
 
 .learn:active {
