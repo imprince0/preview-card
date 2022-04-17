@@ -26,12 +26,17 @@ main {
     background-color: hsla(0, 0%, 100%, 0.75);
     border-radius: 20px;
     padding: 0 10%;
-    margin-top:70px;
+    margin-top: 70px;
+}
+
+.learn:hover {
+    cursor: pointer;
+    border: 2px solid hsl(0, 0%, 95%);
 }
 
 .learn:active {
     color: hsl(0, 0%, 95%);
-    border: 3px solid hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
 }
 
 .learnlu {
