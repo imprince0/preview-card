@@ -4,13 +4,13 @@ html {
 }
 
 main {
-    width: 60%;
     margin: 10% auto;
 }
 
 .innerbox>p {
     font-size: 15px;
     color: hsla(0, 0%, 100%, 0.75);
+    line-height: 25px;
 }
 
 .box h1 {
@@ -72,24 +72,30 @@ main {
 
 
 @media only screen and (min-width:200px) {
+    main {
+        width: 300px;
+    }
+
     .box {
         width: 100%;
     }
 
-    .luxury{
+    .luxury {
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
     }
-    .sedans{
+
+    .sedans {
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
     }
-    
+
 }
 
 @media only screen and (min-width:600px) {
     main {
         display: flex;
+        width: 864px;
     }
 
     .box {
@@ -97,13 +103,14 @@ main {
         width: 33.33%;
     }
 
-    .luxury{
+    .luxury {
         border-bottom-left-radius: 0;
         border-top-right-radius: 10px;
     }
-    .sedans{
+
+    .sedans {
         border-bottom-left-radius: 10px;
         border-top-right-radius: 0;
     }
-    
+
 }
